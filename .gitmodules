@@ -1,0 +1,63 @@
+# vim: ft=ini
+
+[submodule "0stellensatz/dotfiles"]
+path = repo/0stellensatz/dotfiles
+url = git@github.com:0stellensatz/dotfiles.git
+branch = main
+shallow = true
+update = checkout
+fetchRecurseSubmodules = false
+
+
+[submodule "Jhuni0123/icpc-teamnote"]
+path = repo/Jhuni0123/icpc-teamnote
+url = git@github.com:Jhuni0123/icpc-teamnote.git
+branch = master
+shallow = true
+update = checkout
+fetchRecurseSubmodules = false
+
+
+[submodule "kcm1700/SNAFinalArticle"]
+path = repo/kcm1700/SNAFinalArticle
+url = git@github.com:kcm1700/SNAFinalArticle.git
+branch = master
+shallow = true
+update = checkout
+fetchRecurseSubmodules = false
+
+
+[submodule "kcm1700/algorithms"]
+path = repo/kcm1700/algorithms
+url = git@github.com:kcm1700/algorithms.git
+branch = master
+shallow = true
+update = checkout
+fetchRecurseSubmodules = false
+
+
+[submodule "ntopia/icpc-teamnote"]
+path = repo/ntopia/icpc-teamnote
+url = git@github.com:ntopia/icpc-teamnote.git
+branch = master
+shallow = true
+update = checkout
+fetchRecurseSubmodules = false
+
+
+[submodule "simnalamburt/mytex"]
+path = repo/simnalamburt/mytex
+url = git@github.com:simnalamburt/mytex.git
+branch = master
+shallow = true
+update = checkout
+fetchRecurseSubmodules = false
+
+
+[submodule "yous/resume"]
+path = repo/yous/resume
+url = git@github.com:yous/resume.git
+branch = master
+shallow = true
+update = checkout
+fetchRecurseSubmodules = false
