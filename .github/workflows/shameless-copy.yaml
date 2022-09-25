@@ -1,0 +1,24 @@
+# vim: sw=2
+
+on:
+  push:
+    branches: [kotex-actions]
+
+jobs:
+  does-it-works-anyway:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        submodules: true
+
+    - run: sed -i'' '' tex/*.tex
+    - run: chmod -wx ./tex/*.tex
+
+    - uses: actions/upload-artifact@v3
+      with:
+        name: texas
+        path: tex/*.tex
+        if-no-files-found: error
+        retention-days: 1
